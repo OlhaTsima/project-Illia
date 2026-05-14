@@ -1,0 +1,77 @@
+const certificates = [
+  {
+    title: "Front end Developer Certification",
+    provider: "Coursera",
+    year: 2015,
+    description:
+      "Comprehensive certification covering Front end development fundamentals, responsive UI creation, HTML, CSS, JavaScript, and modern Front end Developer practices for web applications."
+  },
+  {
+    title: "Front end Developer React Professional Certificate",
+    provider: "Meta",
+    year: 2016,
+    description:
+      "Advanced program focused on Front end Developer React technologies, component architecture, state management, React ecosystem, and scalable frontend solutions."
+  },
+  {
+    title: "React Full Stack Developer Certification",
+    provider: "Udemy",
+    year: 2017,
+    description:
+      "Certification for React Full Stack Developer skills including React, REST APIs, backend integration, databases, authentication, and deployment workflows."
+  },
+  {
+    title: "Full Stack Developer Professional Program",
+    provider: "edX",
+    year: 2018,
+    description:
+      "Intensive Full Stack and Full Stack Developer training program covering frontend frameworks, backend development, databases, APIs, and cloud deployment."
+  },
+  {
+    title: "Full Stack Developer React Node Certification",
+    provider: "Simplilearn",
+    year: 2019,
+    description:
+      "Specialized Full Stack Developer React Node certification focused on React interfaces, Node.js backend services, Express.js, MongoDB, and scalable web applications."
+  },
+  {
+    title: "React Node.js Engineering Certificate",
+    provider: "IBM",
+    year: 2020,
+    description:
+      "Professional certification validating React Node.js development expertise, API integration, asynchronous programming, server-side architecture, and production-ready applications."
+  },
+  {
+    title: "Full Stack Developer React Advanced Certificate",
+    provider: "Pluralsight",
+    year: 2021,
+    description:
+      "Advanced Full Stack Developer React certification emphasizing enterprise React applications, frontend optimization, testing strategies, and backend integration."
+  },
+  {
+    title: "Front end and React Engineering Certification",
+    provider: "freeCodeCamp",
+    year: 2022,
+    description:
+      "Industry-oriented Front end and Front end Developer React certification covering JavaScript frameworks, reusable components, responsive layouts, and modern development workflows."
+  },
+  {
+    title: "Full Stack Developer React Node Professional Diploma",
+    provider: "Skillsoft",
+    year: 2024,
+    description:
+      "Professional diploma for Full Stack Developer React Node specialists with focus on React applications, Node.js services, API security, CI/CD, and cloud-native development."
+  },
+  {
+    title: "Modern React Full Stack Developer Certification",
+    provider: "Codecademy",
+    year: 2026,
+    description:
+      "Modern React Full Stack Developer certification covering React Node.js applications, full stack architecture, TypeScript integration, backend services, and scalable frontend engineering."
+  }
+];
+
+// stringify
+const jsonString = JSON.stringify(certificates, null, 2);
+
+console.log(jsonString);
